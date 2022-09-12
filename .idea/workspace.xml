@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="586bc36c-6521-471b-995d-0f754b15b9f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TrendyolPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TrendyolStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JSutils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1001_verify_trendyol_registration_page.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1002_verify_trendyol_notFillingMandatoryFields_signup.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1003_verify_trendyol_enteringBlank_mandatoryFields.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_verify_trendyol_userAddCartProduct.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1005_verify_trendyol_userAddProductFavorites.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_verify_trendyol_successfullyBuyProductInCart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_verify_trendyol_userLogoutSuccessfully.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ParelelRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TrendyolPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TrendyolPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TrendyolStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TrendyolStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1001_verify_trendyol_registration_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1001_verify_trendyol_registration_page.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1002_verify_trendyol_notFillingMandatoryFields_signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1002_verify_trendyol_notFillingMandatoryFields_signup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1003_verify_trendyol_enteringBlank_mandatoryFields.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1003_verify_trendyol_enteringBlank_mandatoryFields.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1004_verify_trendyol_userAddCartProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_verify_trendyol_userAddCartProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1005_verify_trendyol_userAddProductFavorites.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1005_verify_trendyol_userAddProductFavorites.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1006_verify_trendyol_successfullyBuyProductInCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_verify_trendyol_successfullyBuyProductInCart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1007_verify_trendyol_userLogoutSuccessfully.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_verify_trendyol_userLogoutSuccessfully.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,112 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Cucumber Java.Feature: US1007_verify_trendyol_userLogoutSuccessfully">
+    <configuration name="Feature: US1003_verify_trendyol_enteringBlank_mandatoryFields" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1003_verify_trendyol_enteringBlank_mandatoryFields.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name=" RonwellTaskSeleniumIntellijCucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1003_verify_trendyol_enteringBlank_mandatoryFields" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: US1004_verify_trendyol_userAddCartProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1004_verify_trendyol_userAddCartProduct.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name=" RonwellTaskSeleniumIntellijCucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1004_verify_trendyol_userAddCartProduct" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: US1005_verify_trendyol_userAddProductFavorites" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1005_verify_trendyol_userAddProductFavorites.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name=" RonwellTaskSeleniumIntellijCucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1005_verify_trendyol_userAddProductFavorites" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: US1006_verify_trendyol_successfullyBuyProductInCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_verify_trendyol_successfullyBuyProductInCart.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name=" RonwellTaskSeleniumIntellijCucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1006_verify_trendyol_successfullyBuyProductInCart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: US1007_verify_trendyol_userLogoutSuccessfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1007_verify_trendyol_userLogoutSuccessfully.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name=" RonwellTaskSeleniumIntellijCucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1007_verify_trendyol_userLogoutSuccessfully" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: US1007_verify_trendyol_userLogoutSuccessfully" />
+        <item itemvalue="Cucumber Java.Feature: US1006_verify_trendyol_successfullyBuyProductInCart" />
+        <item itemvalue="Cucumber Java.Feature: US1005_verify_trendyol_userAddProductFavorites" />
+        <item itemvalue="Cucumber Java.Feature: US1004_verify_trendyol_userAddCartProduct" />
+        <item itemvalue="Cucumber Java.Feature: US1003_verify_trendyol_enteringBlank_mandatoryFields" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
