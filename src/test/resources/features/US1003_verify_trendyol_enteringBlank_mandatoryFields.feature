@@ -1,5 +1,5 @@
 Feature: US1003 verify trendyol entering blank mandatory fields
-
+  @paralel1
   Scenario: TC03_Verify trendyol entering blank mandatory fields
     Given user go to the trendyol page
     And user close advertisement

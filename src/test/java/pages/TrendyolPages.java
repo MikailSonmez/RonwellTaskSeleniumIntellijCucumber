@@ -83,6 +83,24 @@ public class TrendyolPages {
     @FindBy(xpath = "//div[@class='modal-close']")
     public WebElement closeAd;
 
+    @FindBy(xpath = "//a[normalize-space()='Süpermarket']")
+    public WebElement homePageSupermarket;
+
+    @FindBy(xpath = "//article[5]//div[1]//div[1]//div[3]//div[2]//div[1]//a[1]//div[1]//div[1]//div[2]")
+    public WebElement supermarketFirstProduct;
+
+    @FindBy(xpath = "//span[contains(text(),'Ürün Soruları (3185)')]")
+    public WebElement supermarketFirstProductQuestions;
+
+    @FindBy(xpath = "//div[@class='seller-questions-toggle-container']")
+    public WebElement supermarketFirstProductQuestionsFirstQuestion;
+
+    @FindBy(xpath = "//body/div[@id='container']/div[@data-fragment-name='Questions']/div[@id='questions-and-answers-app']/div[@class='questions-app-container-v2']/div/div/div[@class='pr-qna-v2']/div[@class='pr-qna-cnt-bs']/div[@class='pr-qna-cnt gnr-cnt-br']/div[2]/div[2]")
+    public WebElement supermarketFirstProductQuestionsFirstQuestionAnswer;
+
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]")
+    public WebElement supermarketFirstProductQuestionsFrame;
+
 
 
 }

@@ -1,4 +1,5 @@
 Feature: US1001 verify trendyol registration page
+  @paralel1
   @Automation
   Scenario: TC01_Verify trendyol registration page
     Given user go to the trendyol page

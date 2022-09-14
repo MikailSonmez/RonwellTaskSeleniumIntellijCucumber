@@ -1,5 +1,5 @@
 Feature: US1002 verify trendyol not filling mandatory fields signup
-
+  @paralel1
   Scenario: TC02_Verify trendyol not filling mandatory fields signup
     Given user go to the trendyol page
     And user close advertisement

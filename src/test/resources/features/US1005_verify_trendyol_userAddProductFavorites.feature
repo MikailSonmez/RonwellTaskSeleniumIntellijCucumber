@@ -1,5 +1,5 @@
 Feature: US1005 verify trendyol user add product favorites
-
+  @paralel1
   Scenario: TC05_Verify trendyol user add product favorites
     Given user go to the trendyol page
     And user close advertisement

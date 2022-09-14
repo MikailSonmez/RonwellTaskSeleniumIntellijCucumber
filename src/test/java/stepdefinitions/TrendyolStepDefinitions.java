@@ -6,10 +6,14 @@ import org.openqa.selenium.interactions.Actions;
 import pages.TrendyolPages;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.JSutils;
+import utilities.ReusableMethods;
+
+import java.io.IOException;
 
 public class TrendyolStepDefinitions {
 
-    TrendyolPages amazonPages = new TrendyolPages();
+    TrendyolPages trendyolPages = new TrendyolPages();
 
     Actions actions=new Actions(Driver.getDriver());
 
@@ -20,113 +24,136 @@ public class TrendyolStepDefinitions {
     }
     @Given("user click to login button")
     public void user_click_to_login_button() {
-        amazonPages.homePageLoginIn.click();
+        trendyolPages.homePageLoginIn.click();
 
     }
     @Then("user click to sign up")
     public void user_click_to_sign_up() {
-        amazonPages.signUp.click();
+        trendyolPages.signUp.click();
 
     }
     @Given("user verify registration page")
     public void user_verify_registration_page() {
-        amazonPages.trendyolLoginInOrSignUp.isDisplayed();
+        trendyolPages.trendyolLoginInOrSignUp.isDisplayed();
 
     }
 
     @Given("user pick woman or man")
     public void user_pick_woman_or_man() {
-        amazonPages.trendyolLoginInOrSignUpMan.click();
+        trendyolPages.trendyolLoginInOrSignUpMan.click();
 
     }
 
     @Given("user click to sign up in registration page")
     public void user_click_to_sign_up_in_registration_page() {
-        amazonPages.registrationPageSignUp.click();
+        trendyolPages.registrationPageSignUp.click();
 
     }
 
     @Then("user see error message")
     public void user_see_error_message() {
-        amazonPages.registrationPageErrorMessage.isDisplayed();
+        trendyolPages.registrationPageErrorMessage.isDisplayed();
 
     }
 
     @Given("user write space to blanks")
     public void user_write_space_to_blanks() {
-        amazonPages.registrationPageEmail.sendKeys("    ");
-        amazonPages.registrationPagePassword.sendKeys("     ");
+        trendyolPages.registrationPageEmail.sendKeys("    ");
+        trendyolPages.registrationPagePassword.sendKeys("     ");
 
     }
 
     @Given("user click to woman button")
     public void user_click_to_woman_button() {
-        amazonPages.homePageWomanButton.click();
+        trendyolPages.homePageWomanButton.click();
 
     }
 
     @Then("user add first product to cart")
     public void user_add_first_product_to_cart() throws InterruptedException {
-        amazonPages.firstProduct.click();
-        amazonPages.firstProductAddCart.click();
-        amazonPages.wait(20000);
+        trendyolPages.firstProduct.click();
+        trendyolPages.firstProductAddCart.click();
+        trendyolPages.wait(20000);
 
     }
 
     @Given("user see first product in cart")
     public void user_see_first_product_in_cart() {
-        amazonPages.firstProductVisibleInCart.isDisplayed();
+        trendyolPages.firstProductVisibleInCart.isDisplayed();
 
     }
     @Then("user add first product favorites")
     public void user_add_first_product_favorites() {
-        amazonPages.firstProductAddFavorites.click();
+        trendyolPages.firstProductAddFavorites.click();
 
     }
     @Given("user go to cart")
     public void user_go_to_cart() {
-        amazonPages.homePageCart.click();
+        trendyolPages.homePageCart.click();
 
     }
     @Given("user see first product in favorites")
     public void user_see_first_product_in_favorites() {
-        amazonPages.firstProductVisibleInFavorites.isDisplayed();
+        trendyolPages.firstProductVisibleInFavorites.isDisplayed();
 
     }
 
     @Given("user click cart button")
     public void user_click_cart_button() {
-        amazonPages.homePageCart.click();
+        trendyolPages.homePageCart.click();
 
     }
     @Then("user click confirm basket")
     public void user_click_confirm_basket() {
-        amazonPages.confirmBasket.click();
+        trendyolPages.confirmBasket.click();
 
     }
     @Given("user click save and continue")
     public void user_click_save_and_continue() {
-        amazonPages.saveAndContinue.click();
+        trendyolPages.saveAndContinue.click();
 
     }
     @Given("user see pay page successfully")
     public void user_see_pay_page_successfully() {
-        amazonPages.trendyolWalletAddAndPay.isDisplayed();
-        amazonPages.payment.isDisplayed();
+        trendyolPages.trendyolWalletAddAndPay.isDisplayed();
+        trendyolPages.payment.isDisplayed();
 
     }
 
     @Given("user click to logout button")
     public void user_click_to_logout_button() {
-        actions.clickAndHold(amazonPages.myAccount).perform();
-        amazonPages.logOut.click();
+        actions.clickAndHold(trendyolPages.myAccount).perform();
+        trendyolPages.logOut.click();
 
 
     }
 
     @Given("user close advertisement")
     public void user_close_advertisement() {
-        amazonPages.closeAd.click();
+        trendyolPages.closeAd.click();
+    }
+
+    @Given("user click supermarket")
+    public void user_click_supermarket() {
+        trendyolPages.homePageSupermarket.click();
+    }
+    @Given("user click first product in supermarket")
+    public void user_click_first_product_in_supermarket() {
+        trendyolPages.supermarketFirstProduct.click();
+    }
+    @Then("user click product questions")
+    public void user_click_product_questions() {
+        trendyolPages.supermarketFirstProductQuestions.click();
+
+    }
+    @Given("user see first product question and answer")
+    public void user_see_first_product_question_and_answer() {
+        trendyolPages.supermarketFirstProductQuestionsFirstQuestion.isDisplayed();
+        trendyolPages.supermarketFirstProductQuestionsFirstQuestionAnswer.isDisplayed();
+    }
+    @Given("user report to screenshot product questions and answers frame")
+    public void user_report_to_screenshot_product_questions_and_answers_frame() {
+        JSutils.tumSayfaScreenshot();
     }
 
 

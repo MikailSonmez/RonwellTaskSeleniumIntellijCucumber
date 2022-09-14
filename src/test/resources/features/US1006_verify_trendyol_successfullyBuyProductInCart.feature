@@ -1,5 +1,5 @@
 Feature: US1006 verify trendyol successfully buy product in cart
-
+  @paralel1
   Scenario: TC06_Verify trendyol successfully buy product in cart
     Given user go to the trendyol page
     And user close advertisement
