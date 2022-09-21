@@ -155,6 +155,7 @@ public class TrendyolStepDefinitions {
     public void user_report_to_screenshot_product_questions_and_answers_frame() {
         JSutils.tumSayfaScreenshot();
     }
+    
 
 
 
